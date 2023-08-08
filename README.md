@@ -14,7 +14,7 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
 4. For Windows 10, download the file directly from [this link](https://github.com/MustardChef/WSABuilds/releases/download/Windows_10_2306.40000.4.0/WSA_2306.40000.4.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon_Windows_10.zip).
 5. After downloading, extract the ZIP file.
 6. Before installation, enable certain features in Windows by opening 'Windows Features On or Off'.
-7. Check the following Windows features: 
+7. Check the following Windows features:
    - Virtual Machine Platform
    - Windows Hypervisor Platform
    - Windows Subsystem for Linux
@@ -26,8 +26,12 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
 13. Open the 'keylimba' application.
 14. Tap the three lines in the bottom right corner of the app.
 15. Select 'Tines' and slide to set it to 21 Tines (required).
-   
-**Note:** This application is currently not compatible with Kalimbas having fewer than 21 Tines.
+
+Python installation can be done via this [link](https://apps.microsoft.com/store/detail/python-311/9NRWMJP3717K?hl=id-id&gl=id).
+
+**Note:**
+1. This application is currently not compatible with Kalimbas having fewer than 21 Tines.
+2. Python must be installed before running the program.
 
 ## Installation
 
