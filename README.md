@@ -127,4 +127,4 @@ Similar to Kalimba Hotkey, this function uses the numpad on your keyboard for no
 
 Enjoy playing beautiful melodies on your Kalimba instrument using the Kalimba MIDI Player!
 
-For more information and updates, visit the developer's GitHub repository: [Faris Munir Mahdi](https://github.com/yourusername)
+For more information and updates, visit the developer's GitHub repository: [Faris Munir Mahdi](https://github.com/farismnrr)
