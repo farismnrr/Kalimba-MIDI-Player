@@ -29,7 +29,7 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
 15. Select 'Tines' and slide to set it to 21 or 17 Tines (required).
 
 ### Install Python
-Python installation can be done via this [link]([https://apps.microsoft.com/store/detail/python-311/9NRWMJP3717K?hl=id-id&gl=id](https://kinsta.com/knowledgebase/install-python/#windows)).
+Python installation can be done via this [link]([https://kinsta.com/knowledgebase/install-python/#windows]).
 
 **Note:** Python must be installed before running the program.
 
@@ -37,10 +37,25 @@ Python installation can be done via this [link]([https://apps.microsoft.com/stor
 
 To get started with the Kalimba MIDI Player, follow these steps:
 
+### Windows
 1. Clone the repository using Git:
    ```sh
    git clone https://github.com/farismnrr/Kalimba-MIDI-Player.git
-2. Once you have the files, locate and run kalimba_player.exe to start the application.
+   ```
+2. Once you have the files, locate and install the necessary file by open `install_and_run.bat`
+3. Now you can run the application by open `kalimba_player.exe`
+
+### Linux
+1. Clone the repository using Git:
+   ```sh
+   git clone https://github.com/farismnrr/Kalimba-MIDI-Player.git
+   ```
+2. Run the following script to install the application
+   ```sh
+   cd Kalimba-MIDI-Player
+   chmod +x install_and_run.sh
+   ./install_and_run.sh
+   ```
 
 # Kalimba MIDI Player by Faris Munir Mahdi
 
@@ -51,11 +66,9 @@ Welcome to the Kalimba MIDI Player, a versatile application that allows you to p
 - [Introduction](#introduction)
 - [Main Features](#main-features)
 - [Usage](#usage)
-  - [Kalimba Hotkey](#kalimba-hotkey)
   - [Kalimba Landscape](#kalimba-landscape)
   - [Kalimba Portrait](#kalimba-portrait)
   - [MIDI Controller with Keyboard](#midi-controller-with-keyboard)
-  - [Hotkey with Number](#hotkey-with-number)
 - [Notes](#notes)
 
 ## Introduction
@@ -64,45 +77,15 @@ The Kalimba MIDI Player is a musical application developed by Faris Munir Mahdi.
 
 ## Main Features
 
-1. **Kalimba Hotkey**: Play the Kalimba using your keyboard with specific key assignments.
-2. **Kalimba Landscape**: Play the Kalimba using MIDI input files.
-3. **Kalimba Portrait**: Play the Kalimba in portrait orientation mode.
-4. **MIDI Controller with Keyboard**: Use your keyboard to play MIDI input files for various instruments.
-5. **Hotkey with Number**: Similar to Kalimba Hotkey, but using the numpad for easier note selection.
+1. **Kalimba Landscape**: Play the Kalimba using MIDI input files.
+2. **Kalimba Portrait**: Play the Kalimba in portrait orientation mode.
+3. **MIDI Controller with Keyboard**: Use your keyboard to play MIDI input files for various instruments.
 
 ## Usage
 
-### Kalimba Hotkey
-
-To play the Kalimba using the keyboard, use the following key assignments:
-
-- 1 = z
-- 2 = x
-- 3 = c
-- 4 = v
-- 5 = b
-- 6 = n
-- 7 = m
-- 1' = a
-- 2' = b
-- 3' = c
-- 4' = f
-- 5' = g
-- 6' = h
-- 7' = j
-- 1'' = q
-- 2'' = w
-- 3'' = e
-- 4'' = r
-- 5'' = t
-- 6'' = y
-- 7'' = u
-
-Press the 'space' key to start playing and 'esc' to stop.
-
 ### Kalimba Landscape
 
-You can play the Kalimba using MIDI input files. Here's an example MIDI file you can use: [MIDI Example](https://drive.google.com/file/d/1F4Vsa2g1i_LgMSjKUXlWhsC1k7s8qO68/view?usp=sharing).
+You can play the Kalimba using MIDI input files with 17 and 21 times. Here's an example MIDI file you can use: [MIDI Example](https://drive.google.com/file/d/1ytVOfY-tBrAPgKaFesL9inaYkO9iOObq/view?usp=drive_link).
 
 ### Kalimba Portrait
 
@@ -115,10 +98,6 @@ Before starting the application, follow these steps to set your laptop's orienta
 ### MIDI Controller with Keyboard
 
 This function allows you to play MIDI input files using your keyboard. You can use it for various instruments. Here's an example MIDI file you can try: [MIDI Example](https://drive.google.com/file/d/1plo_niuNKCy9cLTCQoRrzFVk03L1yq8X/view?usp=sharing).
-
-### Hotkey with Number
-
-Similar to Kalimba Hotkey, this function uses the numpad on your keyboard for note selection. Refer to the Kalimba Hotkey section for key assignments.
 
 ## Notes
 
