@@ -54,6 +54,8 @@ To get started with the Kalimba MIDI Player, follow these steps:
 2. Run the following script to install the application:
    ```sh
    cd Kalimba-MIDI-Player
+   ```
+   ```sh
    chmod +x install_and_run.sh
    ./install_and_run.sh
    ```
