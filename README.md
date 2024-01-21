@@ -1,51 +1,109 @@
-# Genshin MIDI Lyre
-Play midi file with Windsong Lyre.
+# Kalimba MIDI Player - KeyLimba
 
-## Requirements
+![Kalimba Image](kalimba_image.png)
 
-* Genshin Impact(原神) on Windows
-* Python 3
-* `keyboard` module
-* `mido` module
-* Git (optional)
+Welcome to the Kalimba MIDI Player, a versatile application developed by Faris Munir Mahdi. This application allows you to play MIDI files on a Kalimba instrument, such as the Lyre from Genshin Impact or other similar musical instruments.
 
-## Install
+## Getting Started
 
-```
-git clone https://github.com/EHfive/genshin-midi-lyre.git
-cd genshin-midi-lyre
-pip install -r .\requirements.txt
-```
+Before using the Kalimba MIDI Player, you need to download and install the necessary components. Follow these steps to set up the application:
+
+### Install Keylimba from Play Store
+1. Visit the [WSABuilds GitHub Repository](https://github.com/MustardChef/WSABuilds).
+2. Choose the version of WSA (Windows Subsystem for Android) that you want to download. It's recommended to download the stable build.
+3. For Windows 11, download the file directly from [this link](https://github.com/MustardChef/WSABuilds/releases/download/Windows_11_2306.40000.4.0/WSA_2306.40000.4.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon.zip).
+4. For Windows 10, download the file directly from [this link](https://github.com/MustardChef/WSABuilds/releases/download/Windows_10_2306.40000.4.0/WSA_2306.40000.4.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon_Windows_10.zip).
+5. After downloading, extract the ZIP file.
+6. Before installation, enable certain features in Windows by opening Windows Features On or Off.
+7. Check the following Windows features:
+   - Virtual Machine Platform
+   - Windows Hypervisor Platform
+   - Windows Subsystem for Linux
+8. Click OK and restart your computer.
+9. Go back to the extracted files, find and run the 'Run.bat' file as an administrator.
+10. Follow the installation process until it's complete.
+11. Once the installation is finished, open the Play Store and log in with your Gmail account.
+12. Download the 'keylimba' application from the Play Store.
+13. Open the 'keylimba' application.
+14. Tap the three lines in the bottom right corner of the app.
+15. Select 'Tines' and slide to set it to 21 or 17 Tines (required).
+
+### Install Python
+Python installation can be done via this [link](https://kinsta.com/knowledgebase/install-python/#windows).
+
+*Note:* Python must be installed before running the program.
+
+## Installation
+
+To get started with the Kalimba MIDI Player, follow these steps:
+
+### Windows
+1. Clone the repository using Git:
+   sh
+   git clone https://github.com/farismnrr/Kalimba-MIDI-Player.git
+   
+2. Once you have the files, locate and install the necessary file by open install_and_run.bat
+3. Now you can run the application by open kalimba_player.exe
+
+### Linux
+1. Clone the repository using Git:
+   sh
+   git clone https://github.com/farismnrr/Kalimba-MIDI-Player.git
+   
+2. Run the following script to install the application
+   sh
+   cd Kalimba-MIDI-Player
+   chmod +x install_and_run.sh
+   ./install_and_run.sh
+   
+
+# Kalimba MIDI Player by Faris Munir Mahdi
+
+Welcome to the Kalimba MIDI Player, a versatile application that allows you to play the Kalimba, Lyre from Genshin Impact, or other musical instruments using various methods.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Main Features](#main-features)
+- [Usage](#usage)
+  - [Kalimba Landscape](#kalimba-landscape)
+  - [Kalimba Portrait](#kalimba-portrait)
+  - [MIDI Controller with Keyboard](#midi-controller-with-keyboard)
+- [Notes](#notes)
+
+## Introduction
+
+The Kalimba MIDI Player is a musical application developed by Faris Munir Mahdi. It allows you to play the Kalimba, Lyre from Genshin Impact, or other musical instruments using different methods. This README will guide you through the application's main features and how to use them effectively.
+
+## Main Features
+
+1. *Kalimba Landscape*: Play the Kalimba using MIDI input files.
+2. *Kalimba Portrait*: Play the Kalimba in portrait orientation mode.
+3. *MIDI Controller with Keyboard*: Use your keyboard to play MIDI input files for various instruments.
 
 ## Usage
 
-```
-> python .\main.py --help
-usage: main.py [-h] [-c [CHANNELS ...]] [-s SHIFT] [--no-semi] [--shift-out-of-range] [midi]
+### Kalimba Landscape
 
-Play midi file with Windsong Lyre in Genshin Impact
+You can play the Kalimba using MIDI input files with 17 and 21 times. Here's an example MIDI file you can use: [MIDI Example](https://drive.google.com/file/d/1ytVOfY-tBrAPgKaFesL9inaYkO9iOObq/view?usp=drive_link).
 
-positional arguments:
-  midi                  path to midi file
+### Kalimba Portrait
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -c [CHANNELS ...], --channels [CHANNELS ...]
-                        enabled midi channels, available values:0, 1, 2,...,N
-  -s SHIFT, --shift SHIFT
-                        shift note pitch, auto calculated by default
-  --no-semi             don't shift black key to white key
-  --shift-out-of-range  shift notes which out of range
-```
+Before starting the application, follow these steps to set your laptop's orientation to portrait:
 
-1. Start Genshin Impact(原神)
-2. Equipt Windsong Lyre
-3. Press Z (or your custom keymap) to use Windsong Lyre
-4. Run `admin_cmd.bat` to get an administrator cmd terminal
-5. Run `python main.py [path to midi file]` in administrator terminal
-6. Switch back to Genshin Impact window, press "\\" to start/stop playing
-7. Press "backspace" to exit
+1. Open the Keylimba application.
+2. Go to Settings -> Display.
+3. Set Display Orientation to 'Portrait'.
 
-## Credits
+### MIDI Controller with Keyboard
 
-"canon.mid" & "admin_cmd.bat" are borrowed from https://github.com/Misaka17032/genshin-lyre-auto-play
+This function allows you to play MIDI input files using your keyboard. You can use it for various instruments. Here's an example MIDI file you can try: [MIDI Example](https://drive.google.com/file/d/1plo_niuNKCy9cLTCQoRrzFVk03L1yq8X/view?usp=sharing).
+
+## Notes
+
+1. MIDI files for keylimba should be in the range C4 - B6 to be properly recognized.
+2. Use the 'space' key to start playing and the 'esc' key to stop or exit from options.
+
+Enjoy playing beautiful melodies on your Kalimba instrument using the Kalimba MIDI Player!
+
+For more information and updates, visit the developer's GitHub repository: [Faris Munir Mahdi](https://github.com/farismnrr)
