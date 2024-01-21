@@ -100,7 +100,7 @@ Before starting the application, follow these steps to set your laptop's orienta
 
 ### MIDI Controller with Keyboard
 
-This function allows you to play MIDI input files using your keyboard. You can use it for various instruments. Here's an example MIDI file you can try: [MIDI Example](https://drive.google.com/file/d/1plo_niuNKCy9cLTCQoRrzFVk03L1yq8X/view?usp=sharing).
+This function allows you to play MIDI input files using your keyboard. You can use it for various instruments. Here's an example MIDI file you can try: [MIDI Example](https://drive.google.com/file/d/1ytVOfY-tBrAPgKaFesL9inaYkO9iOObq/view?usp=drive_link).
 
 ## Notes
 
