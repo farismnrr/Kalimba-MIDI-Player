@@ -29,7 +29,7 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
 15. Select 'Tines' and slide to set it to 21 or 17 Tines (required).
 
 ### Install Python
-Python installation can be done via this [link]([https://kinsta.com/knowledgebase/install-python/#windows]).
+Python installation can be done via this [link](https://kinsta.com/knowledgebase/install-python/#windows).
 
 **Note:** Python must be installed before running the program.
 
