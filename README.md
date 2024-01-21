@@ -39,7 +39,7 @@ To get started with the Kalimba MIDI Player, follow these steps:
 
 ### Windows
 1. Clone the repository using Git:
-   sh```
+   ```sh
    git clone https://github.com/farismnrr/Kalimba-MIDI-Player.git
    ```
 2. Once you have the files, locate and install the necessary file by open install_and_run.bat
@@ -47,11 +47,11 @@ To get started with the Kalimba MIDI Player, follow these steps:
 
 ### Linux
 1. Clone the repository using Git:
-   sh```
+   ```sh
    git clone https://github.com/farismnrr/Kalimba-MIDI-Player.git
    ``` 
-2. Run the following script to install the application
-   sh```
+2. Run the following script to install the application:
+   ```sh
    cd Kalimba-MIDI-Player
    chmod +x install_and_run.sh
    ./install_and_run.sh
