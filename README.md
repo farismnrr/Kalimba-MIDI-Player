@@ -57,7 +57,7 @@ To get started with the Kalimba MIDI Player, follow these steps:
    ```
    ```sh
    chmod +x install_and_run.sh
-   ./install_and_run.sh
+   sudo ./install_and_run.sh
    ```
 
 # Kalimba MIDI Player by Faris Munir Mahdi
