@@ -1,4 +1,4 @@
-# Kalimba MIDI Player - KeyLimba
+# Kalimba MIDI Player - Keylimba
 
 ![Kalimba Image](kalimba_image.png)
 
