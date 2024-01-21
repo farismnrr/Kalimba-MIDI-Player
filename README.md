@@ -31,7 +31,7 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
 ### Install Python
 Python installation can be done via this [link](https://kinsta.com/knowledgebase/install-python/#windows).
 
-*Note:* Python must be installed before running the program.
+**Note:** Python must be installed before running the program.
 
 ## Installation
 
