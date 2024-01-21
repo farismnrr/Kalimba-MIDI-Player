@@ -8,12 +8,13 @@ Welcome to the Kalimba MIDI Player, a versatile application developed by Faris M
 
 Before using the Kalimba MIDI Player, you need to download and install the necessary components. Follow these steps to set up the application:
 
+### Install Keylimba from Play Store
 1. Visit the [WSABuilds GitHub Repository](https://github.com/MustardChef/WSABuilds).
 2. Choose the version of WSA (Windows Subsystem for Android) that you want to download. It's recommended to download the stable build.
 3. For Windows 11, download the file directly from [this link](https://github.com/MustardChef/WSABuilds/releases/download/Windows_11_2306.40000.4.0/WSA_2306.40000.4.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon.zip).
 4. For Windows 10, download the file directly from [this link](https://github.com/MustardChef/WSABuilds/releases/download/Windows_10_2306.40000.4.0/WSA_2306.40000.4.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon_Windows_10.zip).
 5. After downloading, extract the ZIP file.
-6. Before installation, enable certain features in Windows by opening 'Windows Features On or Off'.
+6. Before installation, enable certain features in Windows by opening `Windows Features On or Off`.
 7. Check the following Windows features:
    - Virtual Machine Platform
    - Windows Hypervisor Platform
@@ -25,13 +26,12 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
 12. Download the 'keylimba' application from the Play Store.
 13. Open the 'keylimba' application.
 14. Tap the three lines in the bottom right corner of the app.
-15. Select 'Tines' and slide to set it to 21 Tines (required).
+15. Select 'Tines' and slide to set it to 21 or 17 Tines (required).
 
-Python installation can be done via this [link](https://apps.microsoft.com/store/detail/python-311/9NRWMJP3717K?hl=id-id&gl=id).
+### Install Python
+Python installation can be done via this [link]([https://apps.microsoft.com/store/detail/python-311/9NRWMJP3717K?hl=id-id&gl=id](https://kinsta.com/knowledgebase/install-python/#windows)).
 
-**Note:**
-1. This application is currently not compatible with Kalimbas having fewer than 21 Tines.
-2. Python must be installed before running the program.
+**Note:** Python must be installed before running the program.
 
 ## Installation
 
