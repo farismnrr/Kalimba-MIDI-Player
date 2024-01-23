@@ -14,7 +14,7 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
 3. For Windows 11, download the file directly from [this link](https://github.com/MustardChef/WSABuilds/releases/download/Windows_11_2306.40000.4.0/WSA_2306.40000.4.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon.zip).
 4. For Windows 10, download the file directly from [this link](https://github.com/MustardChef/WSABuilds/releases/download/Windows_10_2306.40000.4.0/WSA_2306.40000.4.0_x64_Release-Nightly-MindTheGapps-13.0-RemovedAmazon_Windows_10.zip).
 5. After downloading, extract the ZIP file.
-6. Before installation, enable certain features in Windows by opening Windows Features On or Off.
+6. Before installation, enable certain features in Windows by opening `Windows Features On or Off`.
 7. Check the following Windows features:
    - Virtual Machine Platform
    - Windows Hypervisor Platform
