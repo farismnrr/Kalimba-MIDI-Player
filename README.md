@@ -23,10 +23,10 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
 9. Go back to the extracted files, find and run the `Run.bat` file as an administrator.
 10. Follow the installation process until it's complete.
 11. Once the installation is finished, open the Play Store and log in with your Gmail account.
-12. Download the 'keylimba' application from the Play Store.
-13. Open the 'keylimba' application.
+12. Download the `keylimba` application from the Play Store.
+13. Open the `keylimba` application.
 14. Tap the three lines in the bottom right corner of the app.
-15. Select 'Tines' and slide to set it to 21 or 17 Tines (required).
+15. Select `Tines` and slide to set it to 21 or 17 Tines (required).
 
 **Note:** You can install the Keylimba application in a different method.
 ### Install Python
