@@ -20,7 +20,7 @@ Before using the Kalimba MIDI Player, you need to download and install the neces
    - Windows Hypervisor Platform
    - Windows Subsystem for Linux
 8. Click OK and restart your computer.
-9. Go back to the extracted files, find and run the 'Run.bat' file as an administrator.
+9. Go back to the extracted files, find and run the `Run.bat` file as an administrator.
 10. Follow the installation process until it's complete.
 11. Once the installation is finished, open the Play Store and log in with your Gmail account.
 12. Download the 'keylimba' application from the Play Store.
@@ -94,7 +94,7 @@ Before starting the application, follow these steps to set your laptop's orienta
 
 1. Open the Keylimba application.
 2. Go to Settings -> Display.
-3. Set Display Orientation to 'Portrait'.
+3. Set Display Orientation to `Portrait`.
 
 ### MIDI Controller with Keyboard
 
@@ -103,7 +103,7 @@ This function allows you to play MIDI input files using your keyboard. You can u
 ## Notes
 
 1. MIDI files for keylimba should be in the range C4 - B6 to be properly recognized.
-2. Use the 'space' key to start playing and the 'esc' key to stop or exit from options.
+2. Use the `space` key to start playing and the `esc` key to stop or exit from options.
 
 Enjoy playing beautiful melodies on your Kalimba instrument using the Kalimba MIDI Player!
 
